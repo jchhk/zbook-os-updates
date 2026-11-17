@@ -2,8 +2,19 @@
   "format": 1,
   "channel": "testing",
   "repository": "jchhk/zbook-os-updates",
-  "updated": "2026-11-17T10:41:12Z",
+  "updated": "2026-11-17T12:13:58Z",
   "releases": [
+    {
+      "version": "0.5.1",
+      "tag": "0.5.1",
+      "url": "https://github.com/jchhk/zbook-os-updates/releases/download/0.5.1/zbook-os-0.5.1.raucb",
+      "asset": "zbook-os-0.5.1.raucb",
+      "size": 1218960702,
+      "sha256": "f114aa534375222cb141dd33cb3943e664c6a814740f0f999a6c699a9662cc58",
+      "date": "2026-11-17T12:13:58Z",
+      "min_version": null,
+      "notes": "ZBook OS 0.5.1, channel `testing`: built and tested by CI (build, bundle checks, QEMU tests), not yet confirmed on a laptop.\n\nSource commit `d701ea7cfd25`. Encrypted RAUC bundle: only enrolled devices can install it.\n\n```\nrauc install https://github.com/jchhk/zbook-os-updates/releases/download/0.5.1/zbook-os-0.5.1.raucb\n```\n\nsha256 `f114aa534375222cb141dd33cb3943e664c6a814740f0f999a6c699a9662cc58`\n"
+    },
     {
       "version": "0.5.0",
       "tag": "0.5.0",
