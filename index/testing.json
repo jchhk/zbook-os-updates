@@ -2,8 +2,19 @@
   "format": 1,
   "channel": "testing",
   "repository": "jchhk/zbook-os-updates",
-  "updated": "2026-11-18T13:20:27Z",
+  "updated": "2026-11-18T14:32:03Z",
   "releases": [
+    {
+      "version": "0.5.7",
+      "tag": "0.5.7",
+      "url": "https://github.com/jchhk/zbook-os-updates/releases/download/0.5.7/zbook-os-0.5.7.raucb",
+      "asset": "zbook-os-0.5.7.raucb",
+      "size": 1295928638,
+      "sha256": "aa90726ee05c6f3a221a442b6c10bbe2f3b94b2975cf1c04fbd0651dcca3e654",
+      "date": "2026-11-18T14:32:03Z",
+      "min_version": null,
+      "notes": "ZBook OS 0.5.7, channel `testing`: built and tested by CI (build, bundle checks, QEMU tests), not yet confirmed on a laptop.\n\nSource commit `799cb8157466`. Encrypted RAUC bundle: only enrolled devices can install it.\n\n```\nrauc install https://github.com/jchhk/zbook-os-updates/releases/download/0.5.7/zbook-os-0.5.7.raucb\n```\n\nsha256 `aa90726ee05c6f3a221a442b6c10bbe2f3b94b2975cf1c04fbd0651dcca3e654`\n"
+    },
     {
       "version": "0.5.6",
       "tag": "0.5.6",
@@ -25,17 +36,6 @@
       "date": "2026-11-18T08:38:10Z",
       "min_version": null,
       "notes": "ZBook OS 0.5.5, channel `testing`: built and tested by CI (build, bundle checks, QEMU tests), not yet confirmed on a laptop.\n\nSource commit `6c3ae052065d`. Encrypted RAUC bundle: only enrolled devices can install it.\n\n```\nrauc install https://github.com/jchhk/zbook-os-updates/releases/download/0.5.5/zbook-os-0.5.5.raucb\n```\n\nsha256 `2e44e5f5e45cfa7b63b24081820d124857efc44ea6f133b6892c7192db27f523`\n"
-    },
-    {
-      "version": "0.5.4",
-      "tag": "0.5.4",
-      "url": "https://github.com/jchhk/zbook-os-updates/releases/download/0.5.4/zbook-os-0.5.4.raucb",
-      "asset": "zbook-os-0.5.4.raucb",
-      "size": 1211010366,
-      "sha256": "4f4cee38817b49a62f97b9553a7311f075f00a2db3ea8e6bf96ba26674e3f948",
-      "date": "2026-11-18T04:57:07Z",
-      "min_version": null,
-      "notes": "ZBook OS 0.5.4, channel `testing`: built and tested by CI (build, bundle checks, QEMU tests), not yet confirmed on a laptop.\n\nSource commit `0d5e07a9e919`. Encrypted RAUC bundle: only enrolled devices can install it.\n\n```\nrauc install https://github.com/jchhk/zbook-os-updates/releases/download/0.5.4/zbook-os-0.5.4.raucb\n```\n\nsha256 `4f4cee38817b49a62f97b9553a7311f075f00a2db3ea8e6bf96ba26674e3f948`\n"
     }
   ]
 }
